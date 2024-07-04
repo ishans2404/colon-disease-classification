@@ -60,6 +60,9 @@ To improve the model's generalization, I applied data augmentation techniques su
 ### Model Building
 I used the EfficientNetB0 model with pre-trained weights from ImageNet and added custom classification layers to adapt it for our specific task.
 
+#### Model Architecture
+<img src="https://github.com/ishans2404/colon-disease-classification/blob/72ae66127dbd9afa7496707245f0e2b055e670e4/model-architecture.png" alt="Model Architecture" title="Title" width="30%" height="30%">
+
 ### Model Compilation and Training
 The model is compiled using the Adam optimizer and categorical cross-entropy loss function. It is then trained using the augmented data.
 
