@@ -1,9 +1,9 @@
-opencv-python
+os
+opencv-python-headless
 numpy
-tensorflow
 pandas
 matplotlib
 seaborn
 scikit-learn
-efficientnet
+tensorflow
 tqdm
